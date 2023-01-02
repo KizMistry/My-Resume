@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+div#map {
+    min-height: 360px;
+}
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -7,11 +10,15 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .bg-color-personal-info {
     background-color: #f4f4f4;
+}
+
+.bg-color-skills {
+    background-color: #ffffff;
 }
 
 .bg-color-work-history {
@@ -19,7 +26,15 @@
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -35,7 +50,16 @@
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
